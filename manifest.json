@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "FunnyExtension",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["youtube.js"]
+        },
+        {
+            "matches": ["https://marstv.co/*"],
+            "js": ["marstv.js"]
+        }
+    ]
+}
